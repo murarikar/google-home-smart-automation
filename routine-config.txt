@@ -1,0 +1,23 @@
+Routine Name: I'm leaving
+
+Routine Trigger (Starter):
+- Manual activation from Google Home app OR voice command: “Hey Google, I’m leaving”
+
+Actions Performed:
+- Turn off: Mood Light
+- Turn off: AC3
+- Close: Blinds4
+- Turn off: Washer5
+- Turn off: Outlet1
+
+Traits Used:
+- OnOff
+- OpenClose
+- Modes
+- EnergyControl (if applicable)
+
+Description:
+This routine simulates an "away from home" automation. When triggered, it shuts down energy-consuming devices and adjusts the home environment to save power — perfect for when the user leaves home.
+
+Platform:
+Simulated in Google Home Playground with virtual devices.
